@@ -1,6 +1,6 @@
 # Todo API
 
-A simple Todo REST API built using [Gin Web Framework](https://github.com/gin-gonic/gin) for managing to-do lists. This API supports features like creating, retrieving, updating, completing, and deleting todo items. It also includes user authentication and authorization using JWT tokens.
+A simple Todo REST API built with Go and [Gin Web Framework](https://github.com/gin-gonic/gin) for managing to-do lists. This API supports features like creating, retrieving, updating, completing, and deleting todo items. It also includes user authentication and authorization using JWT tokens.
 
 ---
 
@@ -12,6 +12,7 @@ A simple Todo REST API built using [Gin Web Framework](https://github.com/gin-go
 - Middleware for validating JWT tokens and authorizing users.
 - Database used was SQLite
 - Server is running on port 8080
+- Certain routes were protected so only users that created todo a list can manage it
 
 ---
 
