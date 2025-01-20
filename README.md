@@ -44,3 +44,9 @@ A simple Todo REST API built with Go and [Gin Web Framework](https://github.com/
   Ensures that all protected routes can only be accessed by authenticated users. Unauthorized requests are rejected with a `401 Unauthorized` response.
 
 ---
+
+## Things to Implement
+- Implement it on with postgres database 
+- Handle env variables 
+- Dockerfile to containerize it
+- Ci-Cd pipeline 
